@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 
 export default function Home() {
     return (
-        <main>
+        <main className="px-[30px] pt-[34px] pb-[110px]">
             <NavBar/>
             <Hero/>
         </main>
