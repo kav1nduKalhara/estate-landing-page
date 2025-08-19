@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "@/components/ui/button"
 
 const NavBar = () => {
     return(
@@ -12,27 +13,27 @@ const NavBar = () => {
                     <div className="flex justify-center items-center w-[571px]  h-[60px] bg-[#FEFEFF] rounded-[40px]">
                         <div className="flex flex-row  gap-[35px]">
                             <Link href="/">
-                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%]">
+                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
                                     About us
                                 </span>
                             </Link>
                             <Link href="/">
-                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%]">
+                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
                                     Projects
                                 </span>
                             </Link>
                             <Link href="/">
-                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%]">
+                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
                                     Agents
                                 </span>
                             </Link>
                             <Link href="/">
-                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%]">
+                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
                                     Services
                                 </span>
                             </Link>
                             <Link href="/">
-                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%]">
+                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
                                     Listings
                                 </span>
                             </Link>
@@ -44,17 +45,14 @@ const NavBar = () => {
                 </div>
                 <div className="flex items-center justify-center pr-[24px] gap-[30px]">
                     <Link href="/">
-                        <div className="font-[400] text-[16px] leading-[120%] ">
+                        <div className="font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE] ">
                             Other services
                         </div>
                     </Link>
-                    <div className="w-[158px] h-[60px] bg-white border border-[#BEBEBE] rounded-[40px] flex items-center justify-center ">
-                        <Link href="/">
-                            <div className="font-[400] text-[16px] leading-[120%] whitespace-nowrap">
-                                Contact us
-                            </div>
-                        </Link>
-                    </div>
+                    <Button className="flex items-center justify-center w-[158px] h-[60px] rounded-[40px] bg-[#FEFEFF] text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:bg-[#BEBEBE]">
+                            <Link href="/">Contact us</Link>
+                    </Button>
+
                 </div>
             </nav>
         </div>
