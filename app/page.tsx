@@ -1,9 +1,10 @@
 import Image from "next/image";
+import NavBar from "@/components/NavBar";
 
 export default function Home() {
     return (
-        <div className=" text-black">
-            Hello Next js
-        </div>
+        <main>
+            <NavBar/>
+        </main>
     );
 }
