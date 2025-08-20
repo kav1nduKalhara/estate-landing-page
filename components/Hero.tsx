@@ -1,46 +1,48 @@
-const Hero = () => {
-    return (
-        <div className="relative flex items-center justify-center h-[calc(100vh-134px)] ">
-            <div className=" w-full h-full rounded-[15px] mt-[32px]" style={{
-                background: 'linear-gradient(to right, #C1DEE8, #FBD9B9)'
-            }}>
-                <img
-                    src="/fade.png"
-                    alt="fade overlay"
-                    className=" w-full h-full object-cover rounded-[15px] opacity-50"
-                />
-                <div className="absolute top-[247px] left-[76px]">
-                    <h2 className="text-black font-[400] text-[16px] leading-[120%]">
-                        Welcome to Realstate
-                    </h2>
-                </div>
-                <div className="absolute top-[281px] left-[76px] max-w-[479px]">
-                    <h1 className="text-black font-[600] text-[67px] leading-[120%]">
-                        Manage Your Property
-                    </h1>
-                </div>
-                <div className="absolute top-[465px] left-[76px] max-w-[435px]">
-                    <h2 className="text-black font-[400] text-[16px] leading-[120%]">
-                        Your will have everything nearby supermarket, buses , station, the carmen neighborhood, etc
-                    </h2>
-                </div>
-                <div className="flex items-center justify-center absolute  top-[537px] left-[76px]">
-                    <input
-                        type = "email"
-                        placeholder="Enter your email"
-                        className="w-[438px] h-[60px] rounded-[40px] bg-[#FEFEFF]  px-4 items-center"
-                    />
-                </div>
-                <button className="absolute top-[537px] left-[367px] w-[147px] h-[60px] bg-black rounded-[40px] flex items-center justify-center">
-                    <span className="text-[#FEFEFF] font-[600] text-[16px] ">
-                        Get a Quote
-                    </span>
-                </button>
+import Image from "next/image";
+import {Button} from "@/components/ui/button";
 
-                <div className="absolute top-[156px] left-[625px] flex items-center justify-center">
+const Hero = () => {
+    return(
+        <div className=" relative flex items-center justify-center h-[calc(100vh -134px)]">
+            <div className="w-full h-[617px] rounded-[15px] mt-[32px] overflow-hidden "
+            style={{background: 'linear-gradient(to right, #C1DEE8, #FBD9B9)'}}>
+                <Image src="/fade.png" alt="fade overlay" fill className="object-cover rounded-[15px] opacity-50"/>
+                <div className="flex items-center pl-[46px] z-1">
+                    <div className="flex flex-col item-center pt-[91px]">
+                        <div className="relative max-w-[176px] max-h-[19px] ">
+                            <h2 className="text-[#00000] font-[400] text-[16px] leading-[120%]">
+                                Welcome to Realstate
+                            </h2>
+                        </div>
+                        <div className="relative max-w-[479px] max-h-[160px] mt-[15px]">
+                            <h1 className="text-[#00000] font-[600] text-[67px] leading-[120%]">
+                                Manage Your Property
+                            </h1>
+                        </div>
+                        <div className ="relative max-w-[435px] max-h-[48px]  mt-[24px]">
+                            <p className="text-[#00000] font-[400] text-[16px]  ">
+                                Your will have everything nearby supermarket, buses ,
+                                station, the carmen neighborhood, etc
+                            </p>
+                        </div>
+                        <div className="relative flex max-w-[438px] mt-[24px] mb-[176px]">
+                            <input
+                                type ="email"
+                                placeholder="Enter your email"
+                                className="w-full h-[60px] rounded-[40px] bg-[#FEFEFF] pl-[24px] font-[400] text-[16px]"
+                            />
+                            <Button className="absolute top-0 left-[291px] w-[147px] h-[60px] rounded-[40px]">
+                                <span className="text-[#FEFEFF] font-[600] text-[16px] leading-[120%]">
+                                    Get a Quote
+                                </span>
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                {/* Methana case ekak */}
+                <div className="absolute top-[30px] left-[625px] ">
                     <img src="/Group2.svg" alt="Group2" className="w-[785px] h-[667px]"/>
                 </div>
-
             </div>
         </div>
     )

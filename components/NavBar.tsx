@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 const NavBar = () => {
     return(
-        <div className="flex justify-center">
+        <div className="relative flex items-center justify-center">
             <nav className="flex items-center justify-between w-full h-[90px] rounded-[70px] bg-[#FAFAFA] ">
                 <div className="flex items-center pl-[40px]">
                     <Image src="/Logo.svg" alt="Logo" width={94} height={28}/>
@@ -45,9 +45,9 @@ const NavBar = () => {
                 </div>
                 <div className="flex items-center justify-center pr-[24px] gap-[30px]">
                     <Link href="/">
-                        <div className="font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE] ">
+                        <span className="font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE] ">
                             Other services
-                        </div>
+                        </span>
                     </Link>
                     <Button className="flex items-center justify-center w-[158px] h-[60px] rounded-[40px] bg-[#FEFEFF] text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:bg-[#BEBEBE]">
                             <Link href="/">Contact us</Link>
