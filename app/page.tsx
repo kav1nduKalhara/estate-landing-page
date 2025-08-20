@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
 import Steps from "@/components/Steps";
 import Guide from "@/components/Guide";
+import RecentProject from "@/components/RecentProject";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <Hero/>
             <Steps/>
             <Guide/>
+            <RecentProject/>
         </main>
     );
 }
