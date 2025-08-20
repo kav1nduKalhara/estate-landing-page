@@ -4,7 +4,7 @@ import {Button} from "@/components/ui/button";
 const Hero = () => {
     return(
         <div className=" relative flex items-center justify-center h-[calc(100vh -134px)]">
-            <div className="w-full h-[617px] rounded-[15px] mt-[32px] overflow-hidden "
+            <div className="  w-full h-[617px] rounded-[15px] mt-[32px] overflow-hidden "
             style={{background: 'linear-gradient(to right, #C1DEE8, #FBD9B9)'}}>
                 <Image src="/fade.png" alt="fade overlay" fill className="object-cover rounded-[15px] opacity-50"/>
                 <div className="flex items-center pl-[46px] z-1">
