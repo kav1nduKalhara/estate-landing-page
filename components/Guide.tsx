@@ -21,7 +21,7 @@ const Guide = () => {
                     <Image src="/sms.svg" alt="messages" width={75} height={75}/>
                     <div>
                         <h1 className="text-[#000000] font-[600] text-[28px] leading-[120%] mt-[22px]">
-                            Answer questions
+                            Select a quote
                         </h1>
                         <p className="text-[#000000] font-[400] text-[16px] leading-[24px] mt-[22px]">
                             <span>Lorem ipsum dolor sit amet consectetur. </span>
@@ -34,7 +34,7 @@ const Guide = () => {
                     <Image src="/edit.svg" alt="messages" width={75} height={75}/>
                     <div>
                         <h1 className="text-[#000000] font-[600] text-[28px] leading-[120%] mt-[22px]">
-                            Answer questions
+                            Get registered
                         </h1>
                         <p className="text-[#000000] font-[400] text-[16px] leading-[24px] mt-[22px]">
                             <span>Lorem ipsum dolor sit amet consectetur. </span>
