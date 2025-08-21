@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const RecentProject = () => {
     return(
-        <div className="relative flex justify-between mt-[132px] w-full">
+        <div id="project" className="relative flex justify-between mt-[132px] w-full">
             <div className="relative justify-center flex flex-col ">
                 <h2 className="text-[#00000] font-[400] text-[16px] [leading-120%] max-h-[19px] ">
                     Best Project of the Years

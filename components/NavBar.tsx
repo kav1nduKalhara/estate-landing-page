@@ -12,12 +12,12 @@ const NavBar = () => {
                 <div className="flex-1 flex items-center justify-center pl-[242px]">
                     <div className="flex justify-center items-center w-[571px]  h-[60px] bg-[#FEFEFF] rounded-[40px]">
                         <div className="flex flex-row  gap-[35px]">
-                            <Link href="/">
+                            <Link href="#about">
                                 <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
                                     About us
                                 </span>
                             </Link>
-                            <Link href="/">
+                            <Link href="#project">
                                 <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
                                     Projects
                                 </span>
