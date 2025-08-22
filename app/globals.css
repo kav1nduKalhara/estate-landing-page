@@ -3,6 +3,12 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@layer components {
+  .nav-link {
+    @apply text-[#1F1F1F] font-normal text-[16px] leading-[120%] hover:text-[#BEBEBE];
+  }
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);

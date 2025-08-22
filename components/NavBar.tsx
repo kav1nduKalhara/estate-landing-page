@@ -13,27 +13,27 @@ const NavBar = () => {
                     <div className="flex justify-center items-center w-[571px]  h-[60px] bg-[#FEFEFF] rounded-[40px]">
                         <div className="flex flex-row  gap-[35px]">
                             <Link href="#about">
-                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
+                                <span className="nav-link">
                                     About us
                                 </span>
                             </Link>
                             <Link href="#project">
-                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
+                                <span className="nav-link">
                                     Projects
                                 </span>
                             </Link>
                             <Link href="/">
-                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
+                                <span className="nav-link">
                                     Agents
                                 </span>
                             </Link>
                             <Link href="/">
-                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
+                                <span className="nav-link">
                                     Services
                                 </span>
                             </Link>
                             <Link href="/">
-                                <span className="text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE]">
+                                <span className="nav-link">
                                     Listings
                                 </span>
                             </Link>
@@ -45,11 +45,11 @@ const NavBar = () => {
                 </div>
                 <div className="flex items-center justify-center pr-[24px] gap-[30px]">
                     <Link href="/">
-                        <span className="font-[400] text-[16px] leading-[120%] hover:text-[#BEBEBE] ">
+                        <span className="nav-link">
                             Other services
                         </span>
                     </Link>
-                    <Button className="flex items-center justify-center w-[158px] h-[60px] rounded-[40px] bg-[#FEFEFF] text-[#1F1F1F] font-[400] text-[16px] leading-[120%] hover:bg-[#BEBEBE]">
+                    <Button className="flex items-center justify-center w-[158px] h-[60px] rounded-[40px] bg-[#FEFEFF] text-[#1F1F1F] font-normal text-[16px] leading-[120%] hover:text-[#BEBEBE]">
                             <Link href="/">Contact us</Link>
                     </Button>
 
