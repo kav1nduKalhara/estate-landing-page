@@ -4,7 +4,7 @@ import {Button} from "@/components/ui/button";
 const Hero = () => {
     return(
         <div className=" relative flex items-center justify-center h-[calc(100vh -134px)]">
-            <div className="  w-full h-[617px] rounded-[15px] mt-[32px] overflow-hidden "
+            <div className=" relative w-full h-[617px] rounded-[15px] mt-[32px]  "
             style={{background: 'linear-gradient(to right, #C1DEE8, #FBD9B9)'}}>
                 <Image src="/fade.png" alt="fade overlay" fill className="object-cover rounded-[15px] opacity-50"/>
                 <div className="flex items-center pl-[46px] z-1">
@@ -29,7 +29,7 @@ const Hero = () => {
                             <input
                                 type ="email"
                                 placeholder="Enter your email"
-                                className="w-full h-[60px] rounded-[40px] bg-[#FEFEFF] pl-[24px] font-[400] text-[16px]"
+                                className="w-full h-[60px] rounded-[40px] bg-[#FEFEFF] pl-[24px] font-[400] "
                             />
                             <Button className="absolute top-0 left-[291px] w-[147px] h-[60px] rounded-[40px]">
                                 <span className="text-[#FEFEFF] font-[600] text-[16px] leading-[120%]">
@@ -40,7 +40,7 @@ const Hero = () => {
                     </div>
                 </div>
                 {/* Methana case ekak */}
-                <div className="absolute top-[30px] left-[625px] ">
+                <div className="absolute top-[10px] left-[625px] ">
                     <img src="/Group2.svg" alt="Group2" className="w-[785px] h-[667px]"/>
                 </div>
             </div>
