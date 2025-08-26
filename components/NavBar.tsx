@@ -38,7 +38,7 @@ const NavBar = () => {
                 {/* Mobile Menu Button */}
                 <div className="md:hidden flex items-center">
                     <button onClick={() => setIsOpen(!isOpen)}>
-                        {isOpen ? <X size={24} /> : <Menu size={24} />}
+                        {isOpen ? <X size={24} /> : <Menu size={24}/>}
                     </button>
                 </div>
             </nav>
