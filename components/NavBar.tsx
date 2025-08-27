@@ -16,7 +16,6 @@ const NavBar = () => {
     return (
         <div className="relative flex items-center justify-center">
             <nav className="flex items-center justify-between w-full h-[90px] rounded-[70px] bg-[#FAFAFA] px-4 sm:px-6 md:px-10">
-                {/* Logo */}
                 <div className="flex items-center">
                     <Image src="/Logo.svg" alt="Logo" width={94} height={28} className="w-auto h-6 sm:h-7"/>
                 </div>
