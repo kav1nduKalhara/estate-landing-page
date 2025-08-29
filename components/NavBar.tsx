@@ -38,14 +38,12 @@ const NavBar = () => {
                     </Button>
                 </div>
 
-                {/* Mobile Hamburger */}
                 <div className="lg:hidden flex items-center z-50">
                     <button onClick={() => setIsOpen(!isOpen)}>
                         {isOpen ? <X size={28} /> : <Menu size={28} />}
                     </button>
                 </div>
             </nav>
-
             {isOpen && (
                 <div className="fixed top-[120px] left-0 w-full bg-blue-300 lg:hidden flex flex-col items-center gap-4 py-4 px-15 z-50 rounded-[40px] ">
                     <Link href="#about" className="nav-link" onClick={() => setIsOpen(false)}>About us</Link>

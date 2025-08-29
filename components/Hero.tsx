@@ -3,7 +3,7 @@ import {Button} from "@/components/ui/button";
 
 const Hero = () => {
     return(
-        <div className="relative flex items-center justify-center min-h-[calc(100vh-134px)]  ">
+        <div className="relative flex items-center justify-center ">
             <div className="relative w-full rounded-[15px] mt-[32px] "
                  style={{background: 'linear-gradient(to right, #C1DEE8, #FBD9B9)'}}>
                 <Image
