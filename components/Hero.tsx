@@ -22,7 +22,7 @@ const Hero = () => {
                         </div>
 
                         <div className="mb-[15px] ">
-                            <h1 className="text-black font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[67px] leading-tight">
+                            <h1 className="text-black font-semibold text-3xl sm:text-4xl  lg:text-[67px] leading-tight">
                                 Manage Your Property
                             </h1>
                         </div>
@@ -38,9 +38,9 @@ const Hero = () => {
                             <input
                                 type="email"
                                 placeholder="Enter your email"
-                                className="w-full h-12 sm:h-14 lg:h-[60px] rounded-full bg-[#FEFEFF] pl-6 pr-32 sm:pr-36 lg:pr-40 font-normal text-sm sm:text-base border-0 outline-none shadow-sm"
+                                className="w-full h-12 sm:h-14 lg:h-[60px] rounded-full bg-[#FEFEFF] pl-6 pr-32 sm:pr-36 lg:pr-40 font-normal text-sm sm:text-base "
                             />
-                            <Button className="absolute top-0 right-0 h-full sm:h-12 lg:h-full px-4 sm:px-6 lg:px-8 rounded-full bg-black hover:bg-gray-800 transition-colors">
+                            <Button className="absolute top-0 right-0 h-full sm:h-12 lg:h-full px-4 sm:px-6 lg:px-8 rounded-full bg-black  ">
                                 <span className="text-white font-semibold text-xs sm:text-sm lg:text-base leading-tight whitespace-nowrap">
                                     Get a Quote
                                 </span>
@@ -48,7 +48,7 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <div className="hidden lg:flex absolute top-[60px] left-[625px]">
+                    <div className="hidden lg:flex absolute lg:top-[60px] lg:right-0">
                         <img src="/Group2.svg" alt="Group2" className="w-[785px] h-[667px]"/>
                     </div>
                 </div>

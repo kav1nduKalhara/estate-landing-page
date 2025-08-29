@@ -4,7 +4,7 @@ import {Button} from "@/components/ui/button";
 const Subscribe = () => {
     return(
         <div className="relative flex items-center justify-center px-4 sm:px-6 lg:px-8 mt-20 sm:mt-24 lg:mt-[139px] mb-8 sm:mb-12">
-            <div className="relative w-full max-w-[1380px] min-h-[400px] sm:min-h-[450px] lg:h-[457px] rounded-[15px]"
+            <div className="relative w-full max-w-[1380px] min-h-[40px]  lg:h-[457px] rounded-[15px]"
                  style={{background: 'linear-gradient(to right, #C1DEE8, #FBD9B9)'}}>
 
                 <Image
@@ -40,12 +40,12 @@ const Subscribe = () => {
                             </Button>
                         </div>
                     </div>
-                    <div className="hidden lg:block absolute top-20 right-0 w-2/5 h-full">
+                    <div className="hidden lg:flex absolute top-10 right-0 w-2/5 h-full">
                         <div className="relative w-full h-full flex items-center justify-end">
                             <img
                                 src="/footer.svg"
                                 alt="Newsletter"
-                                className="w-full h-auto max-w-[300px] lg:max-w-[500px] xl:max-w-[606px] object-contain"
+                                className="w-full h-auto lg:max-w-[606px] lg:max-h-[557px]"
                             />
                         </div>
                     </div>
