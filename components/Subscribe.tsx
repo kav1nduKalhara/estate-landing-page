@@ -40,14 +40,8 @@ const Subscribe = () => {
                             </Button>
                         </div>
                     </div>
-                    <div className="hidden lg:flex absolute top-10 right-0 w-2/5 h-full">
-                        <div className="relative w-full h-full flex items-center justify-end">
-                            <img
-                                src="/footer.svg"
-                                alt="Newsletter"
-                                className="w-full h-auto lg:max-w-[606px] lg:max-h-[557px]"
-                            />
-                        </div>
+                    <div className="hidden lg:flex absolute lg:-top-17 lg:right-0">
+                        <img src="/footer.svg" alt="footer" className="w-[606px] h-[557px]"/>
                     </div>
                 </div>
             </div>
