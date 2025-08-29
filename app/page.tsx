@@ -11,16 +11,18 @@ import Subscribe from "@/components/Subscribe";
 
 export default function Home() {
     return (
-        <main className="px-[30px] pt-[34px] pb-[110px]">
-            <NavBar/>
-            <Hero/>
-            <Steps/>
-            <Guide/>
-            <RecentProject/>
-            <RecentProjectCard/>
-            <Global/>
-            <Transfer/>
-            <Subscribe/>
+        <main className="relative bg-[#FFFFFF] flex justify-center items-center flex-col overflow-hidden px-[30px] pt-[34px] pb-[110px]  mx-auto ">
+            <div className="max-w-[1440px] w-full">
+                <NavBar/>
+                <Hero/>
+                <Steps/>
+                <Guide/>
+                <RecentProject/>
+                <RecentProjectCard/>
+                <Global/>
+                <Transfer/>
+                <Subscribe/>
+            </div>
         </main>
     );
 }

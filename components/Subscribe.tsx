@@ -3,38 +3,52 @@ import {Button} from "@/components/ui/button";
 
 const Subscribe = () => {
     return(
-        <div className="relative flex items-center justify-center h-[calc(100vh -134px)] mt-[139px]">
-            <div className="  w-full h-[457px] rounded-[15px] mt-[32px] overflow-hidden "
+        <div className="relative flex items-center justify-center px-4 sm:px-6 lg:px-8 mt-20 sm:mt-24 lg:mt-[139px] mb-8 sm:mb-12">
+            <div className="relative w-full max-w-[1380px] min-h-[400px] sm:min-h-[450px] lg:h-[457px] rounded-[15px]"
                  style={{background: 'linear-gradient(to right, #C1DEE8, #FBD9B9)'}}>
-                <Image src="/fade.png" alt="fade overlay" fill className="object-cover rounded-[15px] opacity-50"/>
-                <div className="flex items-center pl-[43px] z-1">
-                    <div className="flex flex-col item-center pt-[56px]">
-                        <div className="relative max-w-[642px] max-h-[60px] ">
-                            <h1 className="text-[#00000] font-[600] text-[50px] leading-[120%]">
+
+                <Image
+                    src="/fade.png"
+                    alt="fade overlay"
+                    fill
+                    className="object-cover rounded-[15px] opacity-50"
+                />
+                <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between p-6 sm:p-8 lg:p-12">
+                    <div className="flex flex-col items-center lg:items-start text-center lg:text-left w-full lg:w-3/5 mb-8 lg:mb-0">
+                        <div className="mb-4 sm:mb-6">
+                            <h1 className="text-black font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[50px] leading-tight max-w-2xl">
                                 Subscribe Our Newsletter
                             </h1>
                         </div>
-                        <div className ="relative max-w-[526px] max-h-[96px]  mt-[18px]">
-                            <p className="text-[#00000] font-[400] text-[16px] leading-[24px] ">
+
+                        <div className="mb-6 sm:mb-8 lg:mb-12 max-w-lg lg:max-w-xl">
+                            <p className="text-black font-normal text-sm sm:text-base leading-relaxed">
                                 Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus scelerisque vehicula ante nunc.
                             </p>
                         </div>
-                        <div className="relative flex max-w-[469px] mt-[45px] mb-[122px]">
+
+                        <div className="relative flex w-full max-w-md lg:max-w-lg">
                             <input
-                                type ="email"
+                                type="email"
                                 placeholder="Enter your email"
-                                className="w-full h-[60px] rounded-[40px] bg-[#FEFEFF] pl-[24px] font-[400] text-[16px] leading-[24px]"
+                                className="w-full h-12 sm:h-14 lg:h-[60px] rounded-full bg-[#FEFEFF] pl-6 pr-32 sm:pr-36 lg:pr-40 font-normal text-sm sm:text-base  "
                             />
-                            <Button className="absolute top-0 left-[322px] w-[147px] h-[60px] rounded-[40px]">
-                                <span className="text-[#FEFEFF] font-[600] text-[16px] leading-[120%]">
+                            <Button className="absolute top-0 right-0 h-full sm:h-12 lg:h-full px-4 sm:px-6 lg:px-8 rounded-full bg-black hover:bg-gray-800 transition-colors">
+                                <span className="text-white font-semibold text-xs sm:text-sm lg:text-base leading-tight whitespace-nowrap">
                                     Get a Quote
                                 </span>
                             </Button>
                         </div>
                     </div>
-                </div>
-                <div className="absolute -top-[30px] left-[809px] ">
-                    <img src="/footer.svg" alt="footer" className="w-[606px] h-[557px]"/>
+                    <div className="hidden lg:block absolute top-20 right-0 w-2/5 h-full">
+                        <div className="relative w-full h-full flex items-center justify-end">
+                            <img
+                                src="/footer.svg"
+                                alt="Newsletter"
+                                className="w-full h-auto max-w-[300px] lg:max-w-[500px] xl:max-w-[606px] object-contain"
+                            />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
