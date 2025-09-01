@@ -49,7 +49,7 @@ const Hero = () => {
                     </div>
 
                     <div className="hidden lg:flex absolute lg:top-[60px] lg:right-0">
-                        <img src="/Group2.svg" alt="Group2" className="w-[785px] h-[667px]"/>
+                        <Image src="/Group2.svg" alt="Group2" width={785} height={667}/>
                     </div>
                 </div>
             </div>
