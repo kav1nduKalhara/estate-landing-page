@@ -41,7 +41,7 @@ const Subscribe = () => {
                         </div>
                     </div>
                     <div className="hidden lg:flex absolute lg:-top-17 lg:right-0">
-                        <img src="/footer.svg" alt="footer" className="w-[606px] h-[557px]"/>
+                        <Image src="/footer.svg" alt="footer" className="w-[606px] h-[557px]"/>
                     </div>
                 </div>
             </div>
