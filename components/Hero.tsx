@@ -1,5 +1,6 @@
 import Image from "next/image";
 import {Button} from "@/components/ui/button";
+import {Input} from "@/components/ui/input";
 
 const Hero = () => {
     return(
@@ -35,15 +36,15 @@ const Hero = () => {
                         </div>
 
                         <div className="relative flex w-full max-w-md">
-                            <input
+                            <Input
                                 type="email"
                                 placeholder="Enter your email"
                                 className="w-full h-12 sm:h-14 lg:h-[60px] rounded-full bg-[#FEFEFF] pl-6 pr-32 sm:pr-36 lg:pr-40 font-normal text-sm sm:text-base "
                             />
-                            <Button className="absolute top-0 right-0 h-full sm:h-12 lg:h-full px-4 sm:px-6 lg:px-8 rounded-full bg-black  ">
-                                <span className="text-white font-semibold text-xs sm:text-sm lg:text-base leading-tight whitespace-nowrap">
+                            <Button className="absolute top-0 right-0 h-full  px-4 sm:px-6 lg:px-8 rounded-full bg-black  ">
+                                <h2 className="text-white font-semibold text-xs sm:text-sm lg:text-base leading-tight whitespace-nowrap">
                                     Get a Quote
-                                </span>
+                                </h2>
                             </Button>
                         </div>
                     </div>
