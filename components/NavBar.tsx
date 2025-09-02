@@ -44,13 +44,6 @@ const NavBar = () => {
                     </button>
                 </div>
             </nav>
-
-            {isOpen && (
-                <div
-                    className="fixed inset-0 bg-[#BEBEBE] z-40 lg:hidden"
-                    onClick={() => setIsOpen(false)}
-                />
-            )}
             <div className={`fixed top-0 right-0 h-full w-[280px] bg-white z-50 lg:hidden ${
                 isOpen ? 'translate-x-0' : 'translate-x-full'
             }`}>
