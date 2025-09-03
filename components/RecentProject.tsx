@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { recentProjects, ProjectData } from "@/data/index";
 
-const RecentProjects = () => {
+const RecentProject = () => {
     return (
         <div id="project" className="w-full">
             <div className="relative flex flex-col lg:flex-row lg:justify-between lg:items-start items-center mt-16 md:mt-20 lg:mt-[132px] w-full px-4 md:px-6 lg:px-0">
@@ -65,4 +65,4 @@ const RecentProjects = () => {
     );
 };
 
-export default RecentProjects;
+export default RecentProject;

@@ -1,10 +1,9 @@
 import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
 import Steps from "@/components/Steps";
-import Guide from "@/components/Guide";
 import RecentProject from "@/components/RecentProject";
-import Global from "@/components/Global";
 import Subscribe from "@/components/Subscribe";
+import RealEstatePage from "@/components/RealEstatePage";
 
 
 export default function Home() {
@@ -16,9 +15,8 @@ export default function Home() {
                     <Hero/>
                 </div>
                 <Steps/>
-                <Guide/>
                 <RecentProject/>
-                <Global/>
+                <RealEstatePage/>
                 <Subscribe/>
             </div>
         </main>
