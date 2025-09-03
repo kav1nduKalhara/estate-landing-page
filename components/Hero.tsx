@@ -5,7 +5,7 @@ import {Input} from "@/components/ui/input";
 const Hero = () => {
     return(
         <div className="relative flex items-center justify-center ">
-            <div className="relative w-full rounded-[15px] mt-[32px] min-h-[600px] md:min-h-[950px] lg:min-h-[500px]"
+            <div className="relative w-full rounded-[15px] mt-[32px] min-h-[630px] sm:min-h-[850px] md:min-h-[950px] lg:min-h-[500px] "
                  style={{background: 'linear-gradient(to right, #C1DEE8, #FBD9B9)'}}>
                 <Image
                     src="/fade.png"
@@ -49,7 +49,7 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <div className=" z-0 flex absolute lg:top-[60px]  md:top-86  top-86 right-0">
+                    <div className=" z-0 flex absolute lg:top-[60px] top-86 right-0">
                         <Image src="/Group2.svg" alt="Group2" width={785} height={667}/>
                     </div>
                 </div>
